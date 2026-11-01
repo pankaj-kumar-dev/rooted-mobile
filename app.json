@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "ROOTED",
+    "slug": "rooted-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rooted.habittracker"
+    },
+    "android": {
+      "package": "com.rooted.habittracker",
+      "adaptiveIcon": {
+        "backgroundColor": "#07100b"
+      }
+    },
+    "plugins": [
+      "expo-status-bar",
+      ["expo-splash-screen", { "backgroundColor": "#07100b" }]
+    ]
+  }
+}
